@@ -4,6 +4,7 @@ import './App.css';
 import './HomePage/HomePage.js';
 import { HashRouter, Route } from 'react-router-dom';
 import HomePage from './HomePage/HomePage.js';
+import Nathan from './Nathan/Nathan.js';
 
 
 class App extends Component {
@@ -11,7 +12,9 @@ class App extends Component {
     return (
       <HashRouter>
         <div className="App">
-          <Route exact path="/" component={HomePage} />
+          <Route component={ HomePage } path='/' exact />
+          <Route component={ Nathan } path='/nathan' />
+
         </div>
       </HashRouter>
     );
