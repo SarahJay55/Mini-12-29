@@ -4,8 +4,11 @@ import './HomePage.css';
 class HomePage extends Component {
     render() {
         return (
-            <div>
-                This is where the magic happens.
+            <div className="homepage">
+                <h1>
+                    This is where the magic happens.
+                </h1>
+                
             </div>
         )
     }
