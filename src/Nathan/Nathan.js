@@ -6,6 +6,7 @@ class Nathan extends Component {
         return (
             <div className="nathan">
                 hello there, this is about Nathan.
+                Fun facts will go here.
                 
             </div>
         )
