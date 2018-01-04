@@ -5,8 +5,8 @@ class Nathan extends Component {
     render() {
         return (
             <div className="nathan">
-                hello there, this is about Nathan.
-                Fun facts will go here.
+                <h1>hello there, this is about Nathan.</h1>
+                <p>Fun facts will go here.</p>
                 
             </div>
         )
